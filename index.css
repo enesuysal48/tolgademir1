@@ -9,7 +9,7 @@
 }
 .menu_bar{
     background: linear-gradient(rgba(0, 68, 255, 0.8),rgba(52,64,98,0.5));
-    height: 200px;
+    height: 14.8vw;
     width: auto;
     margin-top: 15px;
     display: flex;
@@ -18,18 +18,18 @@
     text-align: center;
 }
 .zed img{
-    height: 200px;
+    height: 14.7vw;
     width: auto;
 }
 .baslik p{
     color: rgb(0, 0, 0);
-    font-size: 800%;
+    font-size: 9vw;
     display: inline;
     padding: 10px;
     text-align: center;
 }
 .vayne img{
-    height: 200px;
+    height: 14.7vw;
 }
 .menu_bar p{
     transition: 0.5s;
@@ -58,11 +58,11 @@
 }
 .mozaik img{
     width: 83%;
-    height: 35%;
+    height: 30%;
 }
 .kutlama{
     display: flex;
-    font-size: 50px;
+    font-size: 3.5vw;
     text-align: center;
     color: rgb(37, 22, 12);
     margin-top: 20px;
@@ -83,6 +83,6 @@
 }
 .beraber img{
     width: 83%;
-    height: 35%;
+    height: auto;
 }
 .resimler
