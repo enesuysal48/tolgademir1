@@ -58,7 +58,7 @@
 }
 .mozaik img{
     width: 83%;
-    height: 83%;
+    height: 35%;
 }
 .kutlama{
     display: flex;
@@ -83,6 +83,6 @@
 }
 .beraber img{
     width: 83%;
-    height: auto;
+    height: 35%;
 }
 .resimler
