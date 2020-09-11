@@ -1,5 +1,5 @@
 .body{
-    background-image: url(body.jpg);
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(body.jpg);
     background-size: 1000px;
     margin: 0px;
     padding: 40px;
@@ -21,9 +21,17 @@
     height: 14.7vw;
     width: auto;
 }
+.menu_bar .zed:hover , .vayne:hover{
+    border-style: double;
+}
+.baslik{
+    margin-top: 1.5vw;
+}
 .baslik p{
-    color: rgb(0, 0, 0);
-    font-size: 9vw;
+    color: rgb(255, 203, 125);
+    font-size: 8.8vw;
+    font-family: fantasy;
+    text-decoration: underline;
     display: inline;
     padding: 10px;
     text-align: center;
@@ -40,12 +48,12 @@
 .kayan{
     text-align: center;
     margin-top: 20px;
-    height: 100px;
+    height: 6.8vw;
     border-style: double;
     background: linear-gradient(rgb(16, 141, 89),rgba(52,64,98,0.5));
 }
 .kayan img{
-    height: 90px;
+    height: 6.5vw;
     transition: 0.5s;
 }
 .mozaik{
@@ -58,13 +66,14 @@
 }
 .mozaik img{
     width: 83%;
-    height: 30%;
+    height: 35%;
 }
 .kutlama{
     display: flex;
     font-size: 3.5vw;
+    font-family: cursive;
     text-align: center;
-    color: rgb(37, 22, 12);
+    color:  rgb(255, 203, 125);
     margin-top: 20px;
     justify-content: space-around;
     border-style: double;
@@ -83,6 +92,5 @@
 }
 .beraber img{
     width: 83%;
-    height: auto;
+    height: 35%;
 }
-.resimler
